@@ -13,7 +13,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
 $host = "localhost";
 $dbname = "livreor";
 $username = "root";
-$passwordDB = "Etoile19*";
+$passwordDB = "";
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $passwordDB);

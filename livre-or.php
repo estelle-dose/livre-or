@@ -8,7 +8,7 @@ $loggedIn = isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true;
 // Connexion à la base de données
 $servername = "localhost";
 $username = "root";
-$password_db = "Etoile19*";
+$password_db = "";
 $dbname = "livreor";
 
 $conn = new mysqli($servername, $username, $password_db, $dbname);
